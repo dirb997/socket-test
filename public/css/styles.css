@@ -25,5 +25,23 @@ body {
 }
 
 #input:focus {
-
+    outline: none;
 }
+
+#form > button {
+    border: none;
+    padding: 0 1rem;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+    bottom: 0;
+}
+
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#messages > li { padding: 0.5rem 1rem; }
+#messages > li:nth-child(odd) { background: #efefef; }
